@@ -1,26 +1,32 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { ExpenseDashboard } from "@/components/ExpenseDashboard";
+import { Toaster } from "@/components/ui/sonner";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "ExpenseIQ — Smart Personal Expense Tracker" },
+      {
+        name: "description",
+        content:
+          "Track income, expenses, and monthly budgets with categories, charts, and CSV export. Private, offline-first money management.",
+      },
+      { property: "og:title", content: "ExpenseIQ — Smart Personal Expense Tracker" },
+      {
+        property: "og:description",
+        content:
+          "Categorized transactions, budget alerts, and visual analytics — all stored locally in your browser.",
+      },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <>
+      <ExpenseDashboard />
+      <Toaster />
+    </>
+  );
 }
