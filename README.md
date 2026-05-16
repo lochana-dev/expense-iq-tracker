@@ -1,4 +1,4 @@
-# ExpenseIQ Tracker
+# ExpenseIQ
 
 A modern, intuitive expense tracking web application built with TypeScript. Manage your income, expenses, budgets, and gain valuable financial insights all in one clean, responsive dashboard.
 
