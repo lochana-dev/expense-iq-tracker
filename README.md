@@ -15,10 +15,9 @@ A modern, intuitive expense tracking web application built with TypeScript. Mana
 ## 🚀 Tech Stack
 
 - **Language:** TypeScript
-- **Frontend:** [Add your frontend framework - e.g., React, Vue, etc.]
-- **Backend:** [Add your backend framework if applicable]
-- **Database:** [Add your database - e.g., PostgreSQL, MongoDB, etc.]
-- **Styling:** [Add your CSS framework - e.g., Tailwind CSS, Bootstrap, etc.]
+- **Frontend:**  React, Vite, Tailwind CSS 
+- **Database:**  PostgreSQL
+
 
 ## 📦 Installation
 
@@ -32,3 +31,36 @@ A modern, intuitive expense tracking web application built with TypeScript. Mana
    ```bash
    git clone https://github.com/lochana-dev/expense-iq-tracker.git
    cd expense-iq-tracker
+It looks like the README.md file is truncated at line 35. Let me get the full content to show you all the next steps:
+
+```markdown name=README.md url=https://github.com/lochana-dev/expense-iq-tracker/blob/main/README.md#L31-L35
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/lochana-dev/expense-iq-tracker.git
+   cd expense-iq-tracker
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Set up environment variables**
+   - Create a `.env` file in the root directory
+   - Add necessary configuration (check `.env.example` if available)
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+5. **Open in browser**
+   - Navigate to `http://localhost:3000` (or the port shown in your terminal)
+```
+
+The file appears to be cut off in the retrieval. The installation section shows the main steps to get the project running locally. Do you need me to check if there are more sections in the file, or would you like help with implementing any of these steps?
