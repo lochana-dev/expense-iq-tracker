@@ -26,15 +26,6 @@ A modern, intuitive expense tracking web application built with TypeScript. Mana
 - npm or yarn
 
 ### Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/lochana-dev/expense-iq-tracker.git
-   cd expense-iq-tracker
-It looks like the README.md file is truncated at line 35. Let me get the full content to show you all the next steps:
-
-```markdown name=README.md url=https://github.com/lochana-dev/expense-iq-tracker/blob/main/README.md#L31-L35
-
 1. **Clone the repository**
    ```bash
    git clone https://github.com/lochana-dev/expense-iq-tracker.git
@@ -62,5 +53,3 @@ It looks like the README.md file is truncated at line 35. Let me get the full co
 5. **Open in browser**
    - Navigate to `http://localhost:3000` (or the port shown in your terminal)
 ```
-
-The file appears to be cut off in the retrieval. The installation section shows the main steps to get the project running locally. Do you need me to check if there are more sections in the file, or would you like help with implementing any of these steps?
